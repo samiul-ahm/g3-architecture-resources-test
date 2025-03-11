@@ -10,6 +10,8 @@
   --Dark-01: #131313;
   --Dark-02: #424242;
   --Dark-03: #727272;
+  --BORDER-RADIUS: 8px;
+  --PRIME-COLOR: #ff900e;
 }
 
 body {
@@ -60,3 +62,128 @@ header {
 }
 
 /* !navbar end */
+
+.hero h1 {
+  color: var(--Dark-01, #131313);
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.hero p {
+  max-width: 868px;
+  color: var(--Dark-03, #727272);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 162.5%;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.hero button {
+  color: #fff;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border-radius: 8px;
+  background: #ff900e;
+  width: 180px;
+  height: 64px;
+  border: none;
+  display: block;
+  margin: 0 auto;
+}
+
+.img {
+  margin-top: 50px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.img img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ! Features section */
+
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 4rem;
+  border: 2px solid purple;
+}
+
+.features-pic,
+.features-text {
+  width: 50%;
+}
+
+.features-pic {
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-between;
+  row-gap: 24px;
+  column-gap: 24px;
+  padding: 0.5rem;
+}
+
+.first,
+.second {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.features-pic img {
+  max-width: 342px;
+  max-height: 342px;
+  border-radius: 8px;
+}
+
+.features-text h1 {
+  color: var(--Dark-03, #727272);
+  font-size: 3rem;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 1.5rem;
+  margin-left: 0;
+}
+
+.highlight1 {
+  color: var(--Dark-01, #131313);
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.highlight2 {
+  color: #ff900e;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.features-text p {
+  max-width: 537px;
+  color: var(--Dark-03, #727272);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 162.5%;
+  margin-bottom: 1.08rem;
+}
+
+.features-text button {
+  color: #fff;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 21px 24px;
+  border-radius: 8px;
+  background: #ff900e;
+  border: none;
+}
